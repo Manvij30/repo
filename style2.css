@@ -1,0 +1,76 @@
+header{
+		width: 100%;
+		height: 100px;
+		margin:0px;
+		padding:0px;
+		top:0px;
+		position: relative;
+
+	}
+	header .logo{
+		padding:0px 30px;
+		font-size: 22px;
+		line-height: 100px;
+		color:black;
+		font-weight: bold;
+	}
+
+	.logo span{
+		color: #D80000;
+		font-size: 35px;
+	}
+
+header ul a{
+	text-decoration: none;	
+	color:black;
+	font-family: verdana;
+	text-decoration: none;
+	font-family: Georgia, serif;
+font-size: 15px;
+letter-spacing: 0.2px;
+word-spacing: 3px;
+color: #000000;
+font-weight: normal;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: capitalize;
+}
+
+header ul a.active, a:hover{
+	font-family: Georgia, serif;
+font-size: 15px;
+letter-spacing: 0.2px;
+word-spacing: 3px;
+color: #D80000;
+font-weight: 700;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: capitalize;
+border-top: 0px;
+border-bottom: 0px;
+padding:0px 10px;
+transition: 0.5s;
+}
+
+
+header ul li{
+	display: inline-block;
+	line-height: 80px;
+	margin:0 10px;
+}
+header ul{
+	float:right;
+	margin-right: 20px;
+	list-style-type: none;
+	
+
+}
+
+.image_section img{
+
+	width: 100%;
+	height: 90vh;
+
+}
